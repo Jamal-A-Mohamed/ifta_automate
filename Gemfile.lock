@@ -1,0 +1,23 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    childprocess (4.1.0)
+    interactor (3.1.2)
+    rexml (3.2.5)
+    rubyzip (2.3.2)
+    selenium-webdriver (4.6.1)
+      childprocess (>= 0.5, < 5.0)
+      rexml (~> 3.2, >= 3.2.5)
+      rubyzip (>= 1.2.2, < 3.0)
+      websocket (~> 1.0)
+    websocket (1.2.9)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  interactor
+  selenium-webdriver
+
+BUNDLED WITH
+   2.1.4
